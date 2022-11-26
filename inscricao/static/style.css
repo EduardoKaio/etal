@@ -1,0 +1,34 @@
+
+body{
+    margin: 0;
+}
+input[type="text"], select, input[type="email"], input[type="date"]{
+    margin-bottom: 20px;
+}
+section {
+    margin-top: 100px;
+}
+label{
+    font-weight: 400;
+}
+#id_sexo {
+    display: flex;
+    margin-bottom: 10px;
+}
+#id_sexo div {
+    margin-right: 15px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: brown;  
+    margin-bottom: 30px;  
+}
+button {
+    background: #635af4 !important;
+    color: white !important;
+    margin-right: 450px;
+
+}
