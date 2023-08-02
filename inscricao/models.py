@@ -21,7 +21,7 @@ class Curso(models.Model):
 # Create your models here.
 class Participante(models.Model):
     nome = models.CharField(max_length=150)
-    cpf = models.CharField(max_length=20)
+    cpf = models.CharField(max_length=14)
     email = models.EmailField()
     data_nascimento = models.DateField()
     endereco = models.CharField(max_length=50)

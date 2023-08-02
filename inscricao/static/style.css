@@ -1,34 +1,87 @@
 
 body{
-    margin: 0;
+    margin: 30px 0;
+    background-color:#437a36;
+}
+img{
+    margin-left: 20px;
+}
+.main{
+    background-color: white;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+.form{
+    width: 100%;
+}
+@media screen and (max-width:767px){
+    .main{
+        margin: 5px 5px;
+    }
+    .form{
+        padding: 10px 10px;
+    }
+}
+@media screen and (min-width:1024px){
+    .main{
+        margin: 0px 200px 0 200px;
+    }
+
+}
+@media screen and (min-width:767px) and (max-width:1023px){
+    .main{
+        margin: 0px 100px 0 100px;
+    }
+
 }
 input[type="text"], select, input[type="email"], input[type="date"]{
     margin-bottom: 20px;
 }
 section {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 label{
     font-weight: 400;
 }
-#id_sexo {
+/* #id_sexo {
     display: flex;
-    margin-bottom: 10px;
-}
-#id_sexo div {
-    margin-right: 15px;
+    flex-direction: column;
+    margin-bottom: 20px;
+} */
+.sexo{
+    margin-bottom: 20px;
 }
 h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
-    color: brown;  
-    margin-bottom: 30px;  
+    font-size: 26px;
+    color: white;  
+    margin: 30px 0 30px 0;  
+    font-weight: bold;
 }
 button {
-    background: #635af4 !important;
+    background: #14500f !important;
     color: white !important;
-    margin-right: 450px;
+    width: 120px;
+    margin-top: 50px;
+}
+label{
+    font-weight: 500;
+    font-size: 16px;
+}
+.alert{
+    list-style-type: none
 
+}
+.messages{
+    padding:0;
+}
+.alert-success svg{
+    fill: #0f5132;
+    margin-left: 12px;
+}
+.alert-danger svg{
+    fill: #ac0000;
+    margin-left: 12px;
 }
